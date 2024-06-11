@@ -1,0 +1,41 @@
+body{
+display: flex;
+align-items: center;
+width: 90vw;
+height: 90vh;
+justify-content: center;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,88,1) 31%, rgba(0,212,255,1) 100%);
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 23px;
+    box-shadow: 0px 0px 40px;
+    
+    
+}
+input{
+    background: rgb(255,155,13);
+    background: linear-gradient(326deg, rgba(255,155,13,1) 0%, rgba(255,128,0,1) 100%);
+    color: white;
+
+}
+
+.text{
+    font-size: 10px;
+    text-align: left;
+
+}
+#submit{
+    width: fit-content;
+    margin-top: 30px;
+    padding: 3px 214px;
+    
+
+}
